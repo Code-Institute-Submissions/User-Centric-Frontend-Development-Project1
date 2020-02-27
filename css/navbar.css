@@ -1,7 +1,13 @@
+/* Align nav items to the center */
 #navbarNavAltMarkup {
     justify-content: center;
 }
-
+/* Spread out nav items */
 .nav-item {
     margin-right: 150px;
 }
+
+/* To overlap nav bar on header video */
+.navbar {
+	z-index: 1;
+    }
