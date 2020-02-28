@@ -5,3 +5,7 @@ html,body {
 .about-us {
     margin-top: 80px;
 }
+
+.about-us h1 {
+    text-align: center;
+}
