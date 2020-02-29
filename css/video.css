@@ -3,6 +3,7 @@ video {
 	width: 100%; 
     /* Pushes video to the top overlapping with nav bar */
 	/* margin-top: -15%; */
+    
     /* Opacity of video */
 	opacity: 0.55;
 }
