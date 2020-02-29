@@ -9,3 +9,13 @@ html,body {
 .about-us h1 {
     text-align: center;
 }
+
+/* Overlay scroll down arrow in header video */
+.video {
+    position: relative;
+  }
+#scroll-group {
+    position: absolute;
+    bottom: 30px;
+  }
+/* Overlay scroll down arrow in header video */
