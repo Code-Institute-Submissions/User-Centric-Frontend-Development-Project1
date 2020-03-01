@@ -3,12 +3,21 @@ html,body {
 }
 /* Margin top for spacing between scroll down icon and About Us */
 .intro {
-    margin-top: 80px;
+    /* margin-top: 80px; */
+    background-color: #bfd2d9;
+}
+
+.intro p {
+    color: #002535;
+    font-family:'Noto Serif','Quicksand';
 }
 
 /* Text align for h1 header */
 .intro h1 {
     text-align: center;
+    background-color: bfd2d9;
+    color: #002535;
+    font-family: 'Arvo','Exo 2';
 }
 
 /* Overlay scroll down arrow in header video */
@@ -19,4 +28,3 @@ html,body {
     position: absolute;
     bottom: 30px;
   }
-/* Overlay scroll down arrow in header video */
