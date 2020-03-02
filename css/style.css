@@ -1,23 +1,25 @@
 html,body {
     height: 100%;
 }
-/* Margin top for spacing between scroll down icon and About Us */
 .intro {
-    /* margin-top: 80px; */
-    background-color: #bfd2d9;
+    background-color: #edf4fe;
 }
 
 .intro p {
-    color: #002535;
+    color: #153f65;
     font-family:'Noto Serif','Quicksand';
+    line-height: 2em;
+    font-weight:900;
 }
 
-/* Text align for h1 header */
 .intro h1 {
     text-align: center;
     background-color: bfd2d9;
     color: #002535;
     font-family: 'Arvo','Exo 2';
+    margin-bottom: 30px;
+    margin-top: 30px;
+    font-weight:900;
 }
 
 /* Overlay scroll down arrow in header video */
@@ -28,3 +30,29 @@ html,body {
     position: absolute;
     bottom: 30px;
   }
+
+  @keyframes slidy {
+    0% { left: 0%; }
+    20% { left: 0%; }
+    25% { left: -100%; }
+    45% { left: -100%; }
+    50% { left: -200%; }
+    70% { left: -200%; }
+    75% { left: -300%; }
+    95% { left: -300%; }
+    100% { left: -400%; }
+    }
+    
+    body { margin: 0; } 
+    div#slider { overflow: hidden; }
+    div#slider figure img { width: 20%; float: left; }
+    div#slider figure { 
+      position: relative;
+      width: 500%;
+      margin: 0;
+      left: 0;
+      text-align: left;
+      font-size: 0;
+      animation: 30s slidy infinite; 
+    }
+    
