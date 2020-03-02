@@ -12,6 +12,10 @@ html,body {
     font-weight:900;
 }
 
+.intro img {
+    height: 100%;
+}
+
 .intro h1 {
     text-align: center;
     background-color: bfd2d9;
@@ -31,6 +35,20 @@ html,body {
     bottom: 30px;
   }
 
+  
 .structure {
     height: 982px;
 }
+
+.sipadan {
+    background-color: #002535;
+}
+
+.raja-ampat {
+    background-color: #003851;
+}
+
+.similan {
+    background-color: #22646e;
+}
+

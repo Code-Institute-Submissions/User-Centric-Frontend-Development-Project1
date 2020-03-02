@@ -1,6 +1,3 @@
-/* .crossfade {
-    min-height: 982px;
-} */
 
 .crossfade > figure {
     animation: imageAnimation 30s linear infinite 0s;
@@ -28,15 +25,7 @@
     animation-delay: 20s;
     background-image: url('../images/sipadan3.jpg');
   }
-  /* .crossfade > figure:nth-child(4) {
-    animation-delay: 18s;
-    background-image: url('../images/sipadan2.jpg');
-  }
-  .crossfade > figure:nth-child(5) {
-    animation-delay: 24s;
-    background-image: url('../images/sipadan1.jpg');
-  }
-   */
+
   @keyframes imageAnimation {
     0% {
       animation-timing-function: ease-in;
@@ -50,7 +39,7 @@
       opacity: 1
     }
     25% {
-      opacity: 0
+      opacity: 1
     }
     100% {
       opacity: 0
