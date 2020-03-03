@@ -62,7 +62,7 @@ html,body {
 }
 
 .footer{
-    /* background-image: url(../images/bg-footer.jpg); */
+    background-image: url(../images/bg-footer.jpg);
     height: 700px;
     background-size: cover;
     background-position: center;
@@ -71,5 +71,12 @@ html,body {
 .subscribe-background {
     margin-top: 15vh;
     margin-bottom: 15vh;
-    background-color: black;
+    background-color:rgba(13, 156, 167, 0.15);
 }
+
+form h2 {
+    margin-top: 10%;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
