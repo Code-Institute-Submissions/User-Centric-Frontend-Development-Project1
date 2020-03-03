@@ -1,6 +1,15 @@
 html,body {
     height: 100%;
 }
+
+#bg-divider {
+    background-image: url(../images/bg.jpg);
+    height: 500px;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
 .intro {
     background-color: #edf4fe;
 }
@@ -45,7 +54,7 @@ html,body {
 }
 
 .raja-ampat {
-    background-color: #003851;
+    background-color: #3b89ac;
 }
 
 .similan {
