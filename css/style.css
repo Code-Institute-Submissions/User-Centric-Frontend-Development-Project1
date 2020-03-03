@@ -4,7 +4,7 @@ html,body {
 
 #bg-divider {
     background-image: url(../images/bg.jpg);
-    height: 500px;
+    height: 700px;
     background-size: cover;
     background-attachment: fixed;
 }
@@ -61,3 +61,15 @@ html,body {
     background-color: #22646e;
 }
 
+.footer{
+    /* background-image: url(../images/bg-footer.jpg); */
+    height: 700px;
+    background-size: cover;
+    background-position: center;
+}
+
+.subscribe-background {
+    margin-top: 15vh;
+    margin-bottom: 15vh;
+    background-color: black;
+}
