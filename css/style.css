@@ -68,15 +68,93 @@ html,body {
     background-position: center;
 }
 
+/* styling of subscribe background */
 .subscribe-background {
     margin-top: 15vh;
     margin-bottom: 15vh;
     background-color:rgba(13, 156, 167, 0.15);
 }
 
+/* styling of the subscribe header */
 form h2 {
     margin-top: 10%;
     text-align: center;
     margin-bottom: 15px;
 }
 
+/* styling of subscribe input */
+.formStyle { 
+    background-color: rgba(225, 225, 225, 0);
+    padding: 20px; 
+    width: 100%; 
+    margin-bottom: 20px; 
+    border-bottom-width: 1px; 
+    border-bottom-style: solid; 
+    border-bottom-color: #ecf0f1; 
+    border-top-style: none; 
+    border-right-style: none; 
+    border-left-style: none; 
+    font-size: 1em;
+    font-weight: 100;
+    color: #ffffff;
+  }
+
+  /* Removes outline of input box when clicked on */
+  input:focus {
+    outline: none;
+  }
+
+  /* Styling of placeholder text */
+  ::placeholder{
+    color: white;
+    font-weight: 500;
+  }
+
+    /* styling of radio button */
+.radio {
+    text-align: center;
+    padding-left: 10px;
+}
+
+/* spacing between radio buttons */
+.radio input {
+    margin-left: 20px;
+}
+
+  /* set width of name/email input box for laptop/desktop */
+  @media (min-width:600px){
+    .formStyle{
+        width: 400px;
+    }
+  }
+/* Align Name and Email to center */
+  .input-name-email {
+      text-align: center;
+  }
+
+  /* styling of subscribe button */
+  .formButton {
+      background-color:#ffffff;
+      display:inline-block;
+      color:#2ecc71;
+      font-size:28px;
+      font-weight: 500;
+      padding:6px 24px;
+      margin-top: 15px;
+      text-decoration:none;
+  }
+  
+  .subscribe-button{
+      text-align: center;
+  }
+
+
+  .formButton:hover {
+    background-color: #27ae60;
+    color:#ffffff;
+  }
+  
+  .formButton:active {
+      position:relative;
+      top:3px;
+  }
