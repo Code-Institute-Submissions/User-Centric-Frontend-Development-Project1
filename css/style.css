@@ -105,9 +105,23 @@ form h2 {
   }
 
   /* Styling of placeholder text */
-  ::placeholder{
+  ::-webkit-input-placeholder { /* Chrome/Opera/Safari */
     color: white;
-    font-weight: 500;
+    font-weight: bold;
+  }
+  ::-moz-placeholder { /* Firefox 19+ */
+    color: white;
+    font-weight: bold;
+    opacity: 1; /*remove the default opacity in firefox*/
+  }
+  :-ms-input-placeholder { /* IE 10+ */
+    color: white;
+    font-weight: bold;
+  }
+  :-moz-placeholder { /* Firefox 18- */
+    color: white;
+    font-weight: bold;
+    opacity: 1;  /*remove the default opacity in firefox*/
   }
 
     /* styling of radio button */
