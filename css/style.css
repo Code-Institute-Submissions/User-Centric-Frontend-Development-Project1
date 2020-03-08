@@ -222,7 +222,7 @@ form h2 {
   max-height: 3rem;
   display: block;
   margin: 0 auto;
-  fill: currentColor
+  fill: currentColor;
 }
 
 
@@ -236,5 +236,11 @@ form h2 {
   box-shadow: 0 0 8px 0 rgba(50, 50, 50, 0.15);
   border-radius: 50%;
   transition: 250ms;
-  
-  
+  display: inline-block;
+  justify-content: center;
+}
+
+#site-footer {
+  background-color: black;
+  height: 60px;
+}
