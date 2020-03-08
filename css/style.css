@@ -190,9 +190,51 @@ form h2 {
     padding: 10px 10px 10px 11px;
     border-radius: 50%;
     box-shadow: 1px 1px 5px #000;
-    background-color: #a4a4a4;
+    background-color: black;
  }
  
  #myBtn:hover {
     background-color: #aeaeae;
  }
+
+ /* Social media icons */
+
+
+.clip {
+  border: 0;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+}
+
+.svg--source {
+  display: none
+}
+
+.svg--icon {
+  width: 100%;
+  max-width: 3rem;
+  height: 100%;
+  max-height: 3rem;
+  display: block;
+  margin: 0 auto;
+  fill: currentColor
+}
+
+
+.share {
+  width: 3rem;
+  height: 3rem;
+  float: left;
+  margin: .5rem 1rem .5rem 0;
+  color: #353c4a;
+  border: .125rem solid #f3f3f3;
+  box-shadow: 0 0 8px 0 rgba(50, 50, 50, 0.15);
+  border-radius: 50%;
+  transition: 250ms;
+  
+  
