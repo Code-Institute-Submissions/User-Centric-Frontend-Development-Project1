@@ -45,20 +45,80 @@ html,body {
   }
 
   
-.structure {
+/* .structure {
     height: 982px;
-}
+} */
 
 .sipadan {
     background-color: #002535;
+    text-align: center;
+
 }
+.sipadan h1{
+  color: white;
+  margin-top: 50px;
+  font-family: 'Arvo','Exo 2';
+}
+
+.sipadan a {
+  color: #76b6c4;
+  font-size: 30px;
+  font-family:'Noto Serif','Quicksand';
+}
+
+.sipadan p {
+  color: white;
+  line-height: 2em;
+  font-size: 20px;
+  margin-top: 50px;
+  font-family:'Noto Serif','Quicksand';
+}
+
 
 .raja-ampat {
     background-color: #3b89ac;
+    text-align: center;
+}
+
+.raja-ampat h1{
+  color: white;
+  margin-top: 50px;
+  font-family: 'Arvo','Exo 2';
+}
+.raja-ampat a {
+  color: #76b6c4;
+  font-size: 30px;
+  font-family:'Noto Serif','Quicksand';
+}
+.raja-ampat p{
+  color: white;
+  line-height: 2em;
+  font-size: 20px;
+  margin-top: 50px;
+  font-family:'Noto Serif','Quicksand';
 }
 
 .similan {
     background-color: #22646e;
+    text-align: center;
+}
+.similan h1{
+  color: white;
+  margin-top: 50px;
+  font-family: 'Arvo','Exo 2';
+}
+.similan a {
+  color: #76b6c4;
+  font-size: 30px;
+  font-family:'Noto Serif','Quicksand';
+}
+
+.similan p{
+  color: white;
+  line-height: 2em;
+  font-size: 20px;
+  margin-top: 50px;
+  font-family:'Noto Serif','Quicksand';
 }
 
 .footer{
@@ -243,4 +303,10 @@ form h2 {
 #site-footer {
   background-color: black;
   height: 60px;
+}
+
+@media (max-width: 992px) {
+  .crossfade {
+    min-height: 552px;
+  }
 }
