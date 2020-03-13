@@ -44,10 +44,7 @@ html,body {
     bottom: 30px;
   }
 
-  
-/* .structure {
-    height: 982px;
-} */
+
 
 .sipadan {
     background-color: #002535;
@@ -309,4 +306,10 @@ form h2 {
   .crossfade {
     min-height: 552px;
   }
+}
+
+@media (min-width: 992px){
+  .structure {
+    height: 982px;
+}
 }
