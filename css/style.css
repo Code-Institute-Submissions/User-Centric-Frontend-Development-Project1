@@ -35,6 +35,10 @@ html,body {
     font-weight:900;
 }
 
+figure{
+  margin-bottom: 0;
+}
+
 /* Overlay scroll down arrow in header video */
 .video {
     position: relative;
