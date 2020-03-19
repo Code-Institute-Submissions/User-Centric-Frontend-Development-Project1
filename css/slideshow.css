@@ -1,79 +1,79 @@
 /* Generic styling for all slideshow */
 .crossfade > figure {
-    animation: imageAnimation 12s ease-in-out infinite;
-    backface-visibility: hidden;
-    background-size: cover;
-    background-position: center center;
-    color: transparent;
-    height: 100%;
-    left: 0px;
-    opacity: 0;
-    position: absolute;
-    top: 0px;
-    width: 100%;
-    z-index: 0;
+  animation: imageAnimation 12s ease-in-out infinite;
+  backface-visibility: hidden;
+  background-size: cover;
+  background-position: center center;
+  color: transparent;
+  height: 100%;
+  left: 0px;
+  opacity: 0;
+  position: absolute;
+  top: 0px;
+  width: 100%;
+  z-index: 0;
   }
   /* Sipadan slide show images */
-  .crossfade-sipadan > figure:nth-child(1) {
-    animation-delay: 0s;
-    background-image: url('../images/sipadan1.jpg');
+.crossfade-sipadan > figure:nth-child(1) {
+  animation-delay: 0s;
+  background-image: url('../images/sipadan1.jpg');
   }
-  .crossfade-sipadan > figure:nth-child(2) {
-    animation-delay: 4s;
-    background-image: url('../images/sipadan2.jpg');
+.crossfade-sipadan > figure:nth-child(2) {
+  animation-delay: 4s;
+  background-image: url('../images/sipadan2.jpg');
   }
-  .crossfade-sipadan > figure:nth-child(3) {
-    animation-delay: 8s;
-    background-image: url('../images/sipadan3.jpg');
-  }
-
-  /* Raja Ampat slide show images */
-  .crossfade-raja > figure:nth-child(1) {
-    animation-delay: 0s;
-    background-image: url('../images/raja-ampat1.jpg');
-  }
-  .crossfade-raja > figure:nth-child(2) {
-    animation-delay: 4s;
-    background-image: url('../images/raja-ampat2.jpg');
-  }
-  .crossfade-raja > figure:nth-child(3) {
-    animation-delay: 8s;
-    background-image: url('../images/raja-ampat3.jpg');
+.crossfade-sipadan > figure:nth-child(3) {
+  animation-delay: 8s;
+  background-image: url('../images/sipadan3.jpg');
   }
 
-  /* Similan slide show images */
-  .crossfade-similan > figure:nth-child(1) {
-    animation-delay: 0s;
-    background-image: url('../images/similan1.jpg');
+/* Raja Ampat slide show images */
+.crossfade-raja > figure:nth-child(1) {
+  animation-delay: 0s;
+  background-image: url('../images/raja-ampat1.jpg');
   }
-  .crossfade-similan > figure:nth-child(2) {
-    animation-delay: 4s;
-    background-image: url('../images/similan2.jpg');
+.crossfade-raja > figure:nth-child(2) {
+  animation-delay: 4s;
+  background-image: url('../images/raja-ampat2.jpg');
   }
-  .crossfade-similan > figure:nth-child(3) {
-    animation-delay: 8s;
-    background-image: url('../images/similan3.jpg');
+.crossfade-raja > figure:nth-child(3) {
+  animation-delay: 8s;
+  background-image: url('../images/raja-ampat3.jpg');
+  }
+
+/* Similan slide show images */
+.crossfade-similan > figure:nth-child(1) {
+  animation-delay: 0s;
+  background-image: url('../images/similan1.jpg');
+  }
+.crossfade-similan > figure:nth-child(2) {
+  animation-delay: 4s;
+  background-image: url('../images/similan2.jpg');
+  }
+.crossfade-similan > figure:nth-child(3) {
+  animation-delay: 8s;
+  background-image: url('../images/similan3.jpg');
   }
 
     
 
 
   /* Generic styling for all slide show */
-  @keyframes imageAnimation {
-    0% {
-      opacity: 1;
-    }
-    25% {
-      opacity: 1;
-    }
-    33% {
-      opacity: 0;
-    }
-    92% {
-      opacity: 0;
-    }
-    100% {
-      opacity: 1;
-    }
+@keyframes imageAnimation {
+  0% {
+    opacity: 1;
   }
+  25% {
+    opacity: 1;
+  }
+  33% {
+    opacity: 0;
+  }
+  92% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
   
