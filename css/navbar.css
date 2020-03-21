@@ -11,3 +11,7 @@
 .navbar {
 	z-index: 1;
     }
+
+.navbar-nav{
+    font-weight: 700;
+}
