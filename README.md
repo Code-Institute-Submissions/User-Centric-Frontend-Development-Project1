@@ -81,15 +81,15 @@ The dark background image with bioluminescent jellyfishes were chosen as if fits
 
 
 # TECHNOLOGIES USED
--HTML5
--CSS3
--Javascript (Back to top button)
--<http://draw.io> (Sitemap)
--Balsamiq (Wireframe)
--Am I Responsive(<http://ami.responsivedesign.is/>)
--Screen To Gif(<https://www.screentogif.com/>)
--Google fonts (<https://fonts.google.com/>)
--Github/Gitpod/Visual Studio Code
+* HTML5
+* CSS3
+* Javascript (Back to top button)
+* <http://draw.io> (Sitemap)
+* Balsamiq (Wireframe)
+* Am I Responsive(<http://ami.responsivedesign.is/>)
+* Screen To Gif(<https://www.screentogif.com/>)
+* Google fonts (<https://fonts.google.com/>)
+* Github/Gitpod/Visual Studio Code
 
 # TESTING
 Requested my friends to test out the website on both mobile and laptop screen width and to provide me feedbacks on how I can improve on the website.
@@ -117,23 +117,23 @@ type git remote rm origin into the terminal.
 
 # CREDITS
 * Nav-bar logo
--<https://www.flaticon.com/authors/freepik>
+- <https://www.flaticon.com/authors/freepik>
 * Video
--<https://www.pexels.com/video/couple-swimming-under-the-sea-854397>
+- <https://www.pexels.com/video/couple-swimming-under-the-sea-854397>
 * Images
--Intro Map (<https://www.underwaterasia.info/dive-guide-asia/dive-guide-asia.php>)
--slideshows images
-	-http://divesitesofmalaysia.blogspot.com/2013/05/sabah-pulau-sipadan-island.html
-	-https://www.amazingborneo.com/
-	-https://www.pinterest.com/pin/355925176803720165/
-	-http://nomads-expeditions.com/2017/12/underwater-guide-to-raja-ampat-indonesia/ 
-	-https://www.pexels.com/photo/aerial-photo-of-islands-on-sea-2583852/
-	-https://www.uwphotographyguide.com/epic-photo-destinations-raja-ampat
-	-https://www.iq-dive.com/en/divingatthesimilanislands-12.html
-	-http://www.divephotoguide.com/underwater-photography-travel/article/underwater-photographers-guide-similan-islands-surin-islands
-	-https://phuket-diving-thailand.net/3-days-trip-richelieu-rock-similan-islands/
--Subscribe Background image
-	-https://unsplash.com/photos/dr_9oxbVnuc
+- Intro Map (<https://www.underwaterasia.info/dive-guide-asia/dive-guide-asia.php>)
+* slideshows images
+	- http://divesitesofmalaysia.blogspot.com/2013/05/sabah-pulau-sipadan-island.html
+	- https://www.amazingborneo.com/
+	- https://www.pinterest.com/pin/355925176803720165/
+	- http://nomads-expeditions.com/2017/12/underwater-guide-to-raja-ampat-indonesia/ 
+	- https://www.pexels.com/photo/aerial-photo-of-islands-on-sea-2583852/
+	- https://www.uwphotographyguide.com/epic-photo-destinations-raja-ampat
+	- https://www.iq-dive.com/en/divingatthesimilanislands-12.html
+	- http://www.divephotoguide.com/underwater-photography-travel/article/underwater-photographers-guide-similan-islands-surin-islands
+	- https://phuket-diving-thailand.net/3-days-trip-richelieu-rock-similan-islands/
+* Subscribe Background image
+	- https://unsplash.com/photos/dr_9oxbVnuc
 
 # Acknowledgements
 * Animate on scroll (<https://michalsnik.github.io/aos/>)
