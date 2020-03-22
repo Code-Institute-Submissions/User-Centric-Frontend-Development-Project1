@@ -56,7 +56,7 @@ The background is fixed to give the visual effect of diving deeper into the wate
 Larger viewport allows for the juxtaposition of the word content beside the video slide show. User will be able to read the information about the particular Dive site and enjoy the slideshow imagery at the same time.
 
 
-# UX
+# UI
 
 ### Colors
 The colors are chosen with reference to 'Ocean Theme' color palette found online. On the home page, the colors at the top are of a lighter tone (white nav bar background, opacity on video), and the color progressively gets darker ending with a dark colored subscribe section. I want to to create a visual effect that mimics as if the user is diving deeper into the ocean as the page scrolls down.
@@ -117,11 +117,11 @@ type git remote rm origin into the terminal.
 
 # CREDITS
 * Nav-bar logo
-- <https://www.flaticon.com/authors/freepik>
+    - <https://www.flaticon.com/authors/freepik>
 * Video
-- <https://www.pexels.com/video/couple-swimming-under-the-sea-854397>
+    - <https://www.pexels.com/video/couple-swimming-under-the-sea-854397>
 * Images
-- Intro Map (<https://www.underwaterasia.info/dive-guide-asia/dive-guide-asia.php>)
+    - Intro Map (<https://www.underwaterasia.info/dive-guide-asia/dive-guide-asia.php>)
 * slideshows images
 	- http://divesitesofmalaysia.blogspot.com/2013/05/sabah-pulau-sipadan-island.html
 	- https://www.amazingborneo.com/
