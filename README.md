@@ -16,8 +16,8 @@ As an avid diver myself, I often find myself listening enthusiastically when oth
 # UX
 ### STRATEGY
 * Target audience
--Divers(looking to explore new dive sites) 
--Non-diver(thinking of taking up, or just exploring)
+    - Divers looking to explore new diving location
+    - Non-divers who are interested in taking up Scuba Diving
 
 * Goals
 	- to promote South East Asia diving spots (Owner)
